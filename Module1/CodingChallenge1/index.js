@@ -1,3 +1,4 @@
+// Enumerates all the data types you can use in JavaScript.
 // Primitive data types (Numbers, Strings, Booleans, Undefined, Null, BigInt, Symbol)
 
 let num = 3;
@@ -8,7 +9,7 @@ let nullValue = null;
 let bigNum = 5n;
 let mySymbol = Symbol('test'); 
 
-
+console.log (`farnaz`)
 // Composite data Types (Functions, Arrays, Objects, Maps, Sets)
 let sum = (a, b) => a + b;
 let dict = {name: 'John', age: 30};
