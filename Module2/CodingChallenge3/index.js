@@ -10,12 +10,16 @@
 // 31 higher (remaining interval: 32 to 38)
 // 35 match
 
-
-
-
-  let value = prompt('Enter a number between 1 and 100');
-  let intValue = Number.parseInt(value);
-
+let intValue = null;
+do {
+    let value = prompt('Enter a number between 1 and 100');
+    intValue = Number.parseInt(value);
+} while (
+    Number.isNaN(intValue) ||
+    typeof intValue !== 'number' ||
+    intValue < 1 || 
+    intValue > 100
+);
 
 let minValue = 1;
 let maxValue = 100;
@@ -38,8 +42,4 @@ while (minValue < maxValue) {
 }
 
 console.log( `${minValue} match` );
-
-
-
-
 
