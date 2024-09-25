@@ -5,8 +5,10 @@ let person = {
   isStudent: false,
 };
 
+
 // Accessing object properties
 let personName = person.name
+
 
 // Adding new properties
 person.gender = "male"
@@ -16,6 +18,7 @@ person.gender = "male"
 delete person.name
 
 
+// Nested Object
 let person2 = {
   name:"Martine Ramirez",
   age: 49,
@@ -26,6 +29,7 @@ let person2 = {
   }
 }
 
+console.log (person2)
 console.log (person2.name)
 console.log (person2.address.postalCode)
 
