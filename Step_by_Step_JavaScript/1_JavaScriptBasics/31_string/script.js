@@ -10,7 +10,6 @@ let message3 = `        Hello, world!            `
 let message4 = "This is Quickstart"
 
 console.log (message1.length)
-
 console.log (message1.charAt(1))
 console.log (message1.substring(0,5))
 console.log (message1.toLocaleUpperCase())
