@@ -1,1 +1,1 @@
-console.log ("And new Exercise")
+console.log ("This is Quickstart")
