@@ -1,6 +1,6 @@
 /* 
   Author: Farnaz Towhidi
-  Date: 10/09/2023
+  Date: 10/09/2023 kjshkfhj
   Description: Going through internal and external javascript tag
 */
 

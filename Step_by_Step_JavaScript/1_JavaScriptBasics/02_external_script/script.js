@@ -1,1 +1,2 @@
-console.log ("This is Quickstart")
+console.log ("This is our class")
+console.log (`This is our class 2`)

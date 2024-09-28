@@ -1,5 +1,7 @@
 // Define the var variable
-// {
-  var str1 = "This is box1"
-  console.log (str1)
-// }
+
+{
+  var number1 = 10
+  console.log (number1) 
+}
+console.log (number1);

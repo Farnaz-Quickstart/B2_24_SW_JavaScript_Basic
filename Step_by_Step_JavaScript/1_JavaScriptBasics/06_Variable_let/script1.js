@@ -1,8 +1,10 @@
 // Define the let variable
 // Go through main scope
-  let str1 = "This is a"
-  console.log (str1)
-
+{
+  let number1 = 10
+  console.log (number1);
+}
+console.log (number1)
 
 
 

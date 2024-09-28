@@ -1,4 +1,5 @@
 # <span style="color:green"> Modern JavaScript</span>
+[Reference: W3 School](https://www.w3schools.com/js/default.asp)
 ### Week 7, Session 1:
 
 #### Let, Const, and Block Scope:
