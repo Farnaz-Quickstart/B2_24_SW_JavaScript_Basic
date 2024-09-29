@@ -1,12 +1,9 @@
 // let variable: block scope (if, function, ....)
-
-function print() {
-  let myName= "Farnaz"
-  console.log(myName)
-
+{
+  let name = "Quickstart"
+  console.log (name)
 }
-console.log(myName)
-print()
+console.log (name)
 
 
 

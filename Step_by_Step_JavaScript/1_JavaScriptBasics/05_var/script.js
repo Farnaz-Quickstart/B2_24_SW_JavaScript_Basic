@@ -1,12 +1,11 @@
 // var variable: function scope
 var number1 = 10
 
-
-function print() {
-  console.log ("Hi 1")
-  console.log ("Hi 2")
-  console.log ("Hi 3")
+function printText () {
+  console.log ("Hi")
+  console.log ("How are you?")
   console.log (number1)
 }
 
-console.log (print())
+printText()
+console.log (number1)
