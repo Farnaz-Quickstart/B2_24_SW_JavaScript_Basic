@@ -12,8 +12,9 @@ let student = {
 console.log (student.name)
 
 // Adding new properties, gender
+student.gender = "male";
 
-
+console.log (JSON.stringify (student))
 // Deleting student name
 
 
