@@ -1,5 +1,5 @@
 {
-  let name = "Farnaz"
+  let name = "Quickstart"
   console.log (name)
 }
 
