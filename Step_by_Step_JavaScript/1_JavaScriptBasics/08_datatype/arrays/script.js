@@ -37,5 +37,10 @@ daysOfWeek.pop()
 // Loop through days of week
 
 
+let paragraphItems = document.getElementsByTagName ("p")
+
+console.log (paragraphItems.length)
+console.log (paragraphItems[0])
+
 
 
