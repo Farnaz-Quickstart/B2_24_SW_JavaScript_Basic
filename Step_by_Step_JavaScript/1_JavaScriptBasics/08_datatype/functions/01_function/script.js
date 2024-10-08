@@ -2,32 +2,27 @@
 // A JavaScript function is executed when "something" invokes or call it
 // Reference: https://www.w3schools.com/js/js_functions.asp
 
+console.log ("Saturday")
+printGreetings()
+
+console.log ("Sunday")
+printGreetings2("Farnaz")
 
 console.log ("Monday")
-printGreeting("Farnaz")
+printGreetings2("Farnaz")
 
-console.log ("Tuesday")
-printGreeting()
-
-console.log ("Wednesday")
-printGreeting()
-
-console.log ("Thursday")
-console.log ("Today is raining");
-console.log ("It is beautiful day")
-printGreeting()
-
-function printGreeting (myName) {
-  console.log ("H1");
-  console.log ("How are you?");
-  console.log (`My name is ${myName}`);
+function printGreetings () {
+  console.log ("Hi")
+  console.log ("How are you?")
+  console.log ("My name is: Tom")
 }
 
-let printGreeting2 = function () {
-  console.log ("H1");
-  console.log ("How are you?");
-  console.log ("My name is James");
+function printGreetings2 (myName) {
+  console.log ("Hi")
+  console.log ("How are you?")
+  console.log (`My name is: ${myName}`)
 }
+
 
 
 

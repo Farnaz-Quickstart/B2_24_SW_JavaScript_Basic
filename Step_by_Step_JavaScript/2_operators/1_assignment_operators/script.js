@@ -5,8 +5,10 @@ let z1 = x + y;   // Addition
 let z2 = x - y;   // Subtraction
 let z3 = x * y;   // Multipication
 let z4 = x / y;   // Division
-let z5 = x % y;   // Modules or reminder of devision
+let z5 = x % y;   // Modules or remainder of devision
 let z6 = x++      // Increment
 let z7 = x--      // Decrement
 
-console.log (z5)
+console.log ()
+
+

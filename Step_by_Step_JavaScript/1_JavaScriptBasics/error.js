@@ -1,6 +1,6 @@
 {
-  let name = "Quickstart"
-  console.log (name)
+  var myname = "Quickstart"
+  console.log (myname)
 }
 
-console.log (name)
+console.log (myname)
