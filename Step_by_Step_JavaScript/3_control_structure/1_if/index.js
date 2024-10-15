@@ -1,15 +1,30 @@
 // Reference: https://www.w3schools.com/js/js_if_else.asp
-if (condition) {
-  // statments
-} else if (condition) {
-  // statments
-}
 
+function printDays () {
 
+  // let elementItems = document.getElementsByName('dayWeek12')
+  // console.log (elementItems[0])
 
-function checkAge() {
- let elementvalue = document.getElementById('age').value 
+  let myValue = document.getElementById('day1').value 
   
-  if (elementvalue < 0) 
-    alert ('Please input positive number') 
+  if (myValue == 1) {
+ 
+    console.log ("Saturday")
+  } else if (myValue == 2) {
+    console.log ("Sunday")
+  } else {
+    console.log ("Invalid day")
+  }
 }
+
+
+
+// console.log (`${myValue==12}`)
+// console.log ("Done")
+
+
+
+
+
+
+
