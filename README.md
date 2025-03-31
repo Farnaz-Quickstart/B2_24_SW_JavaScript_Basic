@@ -74,3 +74,4 @@
 - Practical Exercise: Add error handling to an async/await API call, displaying an error - message on the page if the request fails.
 
 Week 11: Project 2# JavaScriptBasic
+# -B2-25-SW-2-FEB-JavaScript
